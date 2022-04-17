@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T01:31:51.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="_IbYLMGpiu2RFIiCT1eb" version="17.4.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-04-17T16:03:15.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="nriVvPNRRVSOIXEBCbER" version="17.4.5" type="github" pages="9">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -156,6 +156,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3_Ywpsvx1E9KfdpLCOaM-1" value="inside the constructor:&lt;br&gt;this.methodName = this.methodName.bind(this)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mWEmL9dCTT82JdxmVFHl" name="09 - pass prev State">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8cUvQ2WJm2E4nJ2E-0vP-1" value="change or update comp&#39;s state with setState: this.setState((state, props)=&amp;gt;{dataName: state.dataName+newValue&lt;br&gt;})" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="260" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
