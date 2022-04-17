@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T00:20:43.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="KXxFCHy4wiN_1cdb60gT" version="17.4.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-04-17T01:31:51.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="_IbYLMGpiu2RFIiCT1eb" version="17.4.5" type="github" pages="8">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,13 +117,41 @@
         <mxCell id="lmiAohyQo69lN-FE1zX2-5" value="+ render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lmiAohyQo69lN-FE1zX2-1">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0lzRdEUd5VTIW5LOgs9s-1" value="this.state={}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="420" width="120" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="O8aaW8XNrt_6tRIbpG-s" name="06 - state">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yk8sqEzYievHdHHS6H4T-2" value="access data: this.state.dataName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk8sqEzYievHdHHS6H4T-3" value="access inside the return of render(): {this.state.dataName}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yk8sqEzYievHdHHS6H4T-4" value="access and manipulate in the render before return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pqf5mmqyJqpMpsTcozOA-1" value="initialize inside the constructor function: this.state={}&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22this.state%3D%7B%7D%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22420%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22this.state%3D%7B%7D%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22340%22%20y%3D%22420%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GCCixi4ryjbMaLbX3nnP" name="07 - setState">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2qBqx0_pNmlnq5VS_R0S-1" value="change or update comp&#39;s state with setState: this.setState({dataName: newValue})" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="260" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mlP-fshjchkDHZLL-gsB" name="08 - bind">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
