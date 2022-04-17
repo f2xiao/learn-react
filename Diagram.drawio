@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T23:03:06.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="HcQJJPSbzNZ7LbFYnTg0" version="17.4.5" type="github" pages="3">
-  <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="JSX">
+<mxfile host="app.diagrams.net" modified="2022-04-17T00:20:43.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="KXxFCHy4wiN_1cdb60gT" version="17.4.5" type="github" pages="6">
+  <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -22,7 +22,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="BHqIijLhPNndav-jzsjz" name="stateless functional comp">
+  <diagram id="BHqIijLhPNndav-jzsjz" name="02 - stateless functional comp">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -45,7 +45,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ydKKTWdMuI7tSlY-n6b7" name="comp w/ ES6 class">
+  <diagram id="ydKKTWdMuI7tSlY-n6b7" name="03 - comp w/ ES6 class">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gRjXp6dxkXTeKHmdEv62-1" value="React.Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="160" width="160" height="86" as="geometry" />
+          <mxGeometry x="480" y="160" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="gRjXp6dxkXTeKHmdEv62-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gRjXp6dxkXTeKHmdEv62-1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -71,9 +71,63 @@
         <mxCell id="gRjXp6dxkXTeKHmdEv62-4" value="+ constructor(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gRjXp6dxkXTeKHmdEv62-1">
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="gRjXp6dxkXTeKHmdEv62-5" value="+render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gRjXp6dxkXTeKHmdEv62-1">
+        <mxCell id="EYOYJ-gW1YSmQ694XkcB-3" value="+ state(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gRjXp6dxkXTeKHmdEv62-1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="gRjXp6dxkXTeKHmdEv62-5" value="+ render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gRjXp6dxkXTeKHmdEv62-1">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EYOYJ-gW1YSmQ694XkcB-1" value="but does not use internal state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EYOYJ-gW1YSmQ694XkcB-2" value="class ComponentName extends React.Component{}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s7hwgAXf5W586IEruqFc" name="04 - props">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sW6dYtYY5RHziHT2NLCA-1" value="defaultProps&lt;br&gt;propTypes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="215" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iuzBB_JeK6lc59-x1Cc0" name="05 - stateful component">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lmiAohyQo69lN-FE1zX2-1" value="React.Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="lmiAohyQo69lN-FE1zX2-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="lmiAohyQo69lN-FE1zX2-1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lmiAohyQo69lN-FE1zX2-3" value="+ constructor(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lmiAohyQo69lN-FE1zX2-1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lmiAohyQo69lN-FE1zX2-4" value="+ state(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lmiAohyQo69lN-FE1zX2-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lmiAohyQo69lN-FE1zX2-5" value="+ render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lmiAohyQo69lN-FE1zX2-1">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0lzRdEUd5VTIW5LOgs9s-1" value="this.state={}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="O8aaW8XNrt_6tRIbpG-s" name="06 - state">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
