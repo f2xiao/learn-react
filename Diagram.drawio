@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T16:15:30.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="FPa6OFw3dpl0avyeAcQC" version="17.4.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-04-17T16:57:35.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="FEH18iqIyOtRnC8oOVpA" version="17.4.5" type="github" pages="10">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,6 +169,47 @@
         <mxCell id="1" parent="0" />
         <mxCell id="8cUvQ2WJm2E4nJ2E-0vP-1" value="change or update comp&#39;s state with setState: this.setState((state, props)=&amp;gt;({dataName: state.dataName+newValue&lt;br&gt;}))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="230" width="260" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vTtyx5O_sHmPoBVPvTwK" name="10 - controlled input">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZqInGBcCudh0TBwgglm0-1" value="&amp;lt;input value={this.state.dataName} onChange={this.handleChange} /&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqInGBcCudh0TBwgglm0-4" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZqInGBcCudh0TBwgglm0-18" value="React.component" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-1" value="MyComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="178" width="230" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="6jRybzABccXOGlvwSdfy-1">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-3" value="+ constructor(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6jRybzABccXOGlvwSdfy-1">
+          <mxGeometry y="34" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-8" value="+ handleClick(){this.setState()}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6jRybzABccXOGlvwSdfy-1">
+          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-5" value="+ render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6jRybzABccXOGlvwSdfy-1">
+          <mxGeometry y="86" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-11" value="this.state={dataName: initialValue}&lt;br&gt;this.handleClick=this.handleClick.bind(this)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6jRybzABccXOGlvwSdfy-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6jRybzABccXOGlvwSdfy-1" target="ZqInGBcCudh0TBwgglm0-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
