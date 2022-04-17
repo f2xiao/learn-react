@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T16:57:35.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="FEH18iqIyOtRnC8oOVpA" version="17.4.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-04-17T18:44:03.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="_qNBJz8eSwgKPR3olKZf" version="17.4.5" type="github" pages="11">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -210,6 +210,62 @@
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="450" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QhWn-RbuZXUBT7CTB33b" name="11 - form">
+    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-2" value="View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-3" value="React.component" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-4" value="MyComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="178" width="230" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Al0C1dXJ_gn36nzKNQj2-4">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-6" value="+ constructor(props)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Al0C1dXJ_gn36nzKNQj2-4">
+          <mxGeometry y="34" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-7" value="+ handleClick(){this.setState()}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Al0C1dXJ_gn36nzKNQj2-4">
+          <mxGeometry y="60" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-11" value="+ handleSubmit(event){&#xa;              event.preventDefault;&#xa;              this.setState()&#xa;    }" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Al0C1dXJ_gn36nzKNQj2-4">
+          <mxGeometry y="86" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-8" value="+ render(): return JSX&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Al0C1dXJ_gn36nzKNQj2-4">
+          <mxGeometry y="151" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-9" value="this.state={dataName: initialValue}&lt;br&gt;this.handleClick=this.handleClick.bind(this)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Al0C1dXJ_gn36nzKNQj2-4" target="Al0C1dXJ_gn36nzKNQj2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="450" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="445" width="350" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-15" value="&amp;lt;/form&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-1" value="&amp;lt;input value={this.state.dataName} onChange={this.handleChange} /&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="500" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-16" value="&amp;lt;button type=&quot;submit&quot; &amp;gt;Submit&amp;lt;/button&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="560" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Al0C1dXJ_gn36nzKNQj2-17" value="&amp;lt;form onSubmit={this.submit}&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="460" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
