@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-20T05:03:08.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IPra39kiaNgteJUTze0A" version="17.4.5" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-04-24T22:43:15.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="s0IJRGVuP9xX1VyhNHNf" version="17.4.6" type="github" pages="12">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01 - JSX">
-    <mxGraphModel dx="1033" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="895" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BHqIijLhPNndav-jzsjz" name="02 - stateless functional comp">
-    <mxGraphModel dx="1033" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,13 +40,13 @@
           <mxGeometry x="440" y="295" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6j-GvJsBo-dMbnkxlp5R-1" value="componentName = function (){&lt;br&gt;return JSX}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="180" width="60" height="30" as="geometry" />
+          <mxGeometry x="240" y="230" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ydKKTWdMuI7tSlY-n6b7" name="03 - comp w/ ES6 class">
-    <mxGraphModel dx="1298" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,10 +75,10 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="EYOYJ-gW1YSmQ694XkcB-1" value="but does not use internal state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="290" width="60" height="30" as="geometry" />
+          <mxGeometry x="330" y="315" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EYOYJ-gW1YSmQ694XkcB-2" value="class ComponentName extends React.Component{}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="190" y="410" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EYOYJ-gW1YSmQ694XkcB-3" value="+ state: {}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
           <mxGeometry x="640" y="194" width="160" height="26" as="geometry" />
@@ -87,7 +87,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="s7hwgAXf5W586IEruqFc" name="04 - props">
-    <mxGraphModel dx="1298" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iuzBB_JeK6lc59-x1Cc0" name="05 - stateful component">
-    <mxGraphModel dx="1298" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,7 +121,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="O8aaW8XNrt_6tRIbpG-s" name="06 - state">
-    <mxGraphModel dx="1298" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
