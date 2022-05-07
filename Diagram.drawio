@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T19:00:37.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Wg6OMbVJgniWetyfdzLb" version="18.0.2" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2022-05-07T19:02:39.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="MuIZq5XmK7dNXbwj2-_a" version="18.0.2" type="github" pages="21">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -224,24 +224,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j6eA7QUYTiK4PW6xaZLn" name="04-2 pass props to stateless functional comp">
-    <mxGraphModel dx="972" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="921" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="l_JWoMxQQ0RnskSdVhHC-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="294.5" as="sourcePoint" />
-            <mxPoint x="450" y="294.5" as="targetPoint" />
+            <mxPoint x="270" y="254.5" as="sourcePoint" />
+            <mxPoint x="370" y="254.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l_JWoMxQQ0RnskSdVhHC-2" value="props" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="180" y="240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l_JWoMxQQ0RnskSdVhHC-3" value="JSX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="280" width="60" height="30" as="geometry" />
+          <mxGeometry x="400" y="240" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l_JWoMxQQ0RnskSdVhHC-4" value="&lt;pre style=&quot;box-sizing: border-box; text-shadow: none; overflow: auto; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 18px; display: block; padding: 1em; margin: 0.5em 0px; line-height: 1.5; word-break: normal; overflow-wrap: normal; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat-x: ; background-repeat-y: ; background-attachment: ; background-origin: ; background-clip: ; border: none; border-radius: 0px; hyphens: none; tab-size: 4; text-align: left; word-spacing: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; tabindex=&quot;0&quot; class=&quot;language-jsx&quot;&gt;&lt;code style=&quot;box-sizing: border-box; text-shadow: none; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; padding: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 0px; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; text-align: left; word-break: normal; word-spacing: normal;&quot; class=&quot;language-jsx&quot;&gt;(props) =&amp;gt; &amp;lt;h1&amp;gt;Hello, {props.user}!&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="340" width="460" height="100" as="geometry" />
+          <mxGeometry x="160" y="330" width="460" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tje5433va55gYkNPUr_3-1" value="&lt;span style=&quot;font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;Pass an Array as Props&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="450" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tje5433va55gYkNPUr_3-2" value="&lt;pre style=&quot;box-sizing: border-box; text-shadow: none; overflow: auto; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 18px; display: block; padding: 1em; margin: 0.5em 0px; line-height: 1.5; word-break: normal; overflow-wrap: normal; background: var(--primary-background); border: none; border-radius: 0px; hyphens: none; tab-size: 4; text-align: left; word-spacing: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; tabindex=&quot;0&quot; class=&quot;language-jsx&quot;&gt;&lt;code style=&quot;box-sizing: border-box; text-shadow: none; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; padding: 0px; background: none; border-radius: 0px; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; text-align: left; word-break: normal; word-spacing: normal;&quot; class=&quot;language-jsx&quot;&gt;&amp;lt;ParentComponent&amp;gt;&lt;br&gt;  &amp;lt;ChildComponent colors={[&quot;green&quot;, &quot;blue&quot;, &quot;red&quot;]} /&amp;gt;&lt;br&gt;&amp;lt;/ParentComponent&amp;gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="550" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
