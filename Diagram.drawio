@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T20:50:26.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ke16bJbyg3OQNzKA-Rcg" version="18.0.2" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-05-07T20:56:29.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="SyaTEXTCSs43d2mSTfMH" version="18.0.2" type="github" pages="20">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -294,12 +294,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iuzBB_JeK6lc59-x1Cc0" name="05 - stateful component">
-    <mxGraphModel dx="579" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="506" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lmiAohyQo69lN-FE1zX2-1" value="React.Component" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="305" y="100" width="160" height="86" as="geometry" />
+          <mxGeometry x="305" y="30" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lmiAohyQo69lN-FE1zX2-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="lmiAohyQo69lN-FE1zX2-1" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -311,43 +311,46 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lmiAohyQo69lN-FE1zX2-4" value="+ state: {}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
-          <mxGeometry x="465" y="143" width="160" height="26" as="geometry" />
+          <mxGeometry x="465" y="73" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-1" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;create state in a React component by declaring a&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;state&lt;/code&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;property on the component class in its&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;constructor&lt;/code&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="550" height="50" as="geometry" />
+          <mxGeometry x="120" y="190" width="550" height="50" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;can access to the&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;state&lt;/code&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;object throughout the life component with this.state&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="370" width="550" height="50" as="geometry" />
+          <mxGeometry x="120" y="300" width="550" height="50" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-3" value="Create" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="210" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-4" value="Access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="340" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-5" value="Operations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="430" width="60" height="30" as="geometry" />
+          <mxGeometry x="120" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-8" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;update it, render it in your UI, and pass it as props to child components&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="480" width="550" height="50" as="geometry" />
+          <mxGeometry x="120" y="410" width="550" height="50" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-9" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;state&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px;&quot;&gt;allows you to track important data in your app and render a UI in response to changes in this data&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="740" width="570" height="60" as="geometry" />
+          <mxGeometry x="120" y="590" width="570" height="60" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-10" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;&amp;nbsp;React uses what is called a virtual DOM, to keep track of changes behind the scenes.&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="640" width="550" height="50" as="geometry" />
+          <mxGeometry x="120" y="490" width="550" height="50" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-11" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;When state data updates, it triggers a re-render of the components using that data - including child components that received the data as a prop.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="840" width="550" height="60" as="geometry" />
+          <mxGeometry x="120" y="690" width="550" height="60" as="geometry" />
         </mxCell>
         <mxCell id="347cUuz558gsX2UDVAB_-12" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;React updates the actual DOM, but only where necessary.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="940" width="490" height="30" as="geometry" />
+          <mxGeometry x="120" y="790" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="347cUuz558gsX2UDVAB_-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;state&lt;/code&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;is completely encapsulated, or local to that component, unless you pass state data to a child component as&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;props&lt;/code&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="850" width="550" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="O8aaW8XNrt_6tRIbpG-s" name="06 - state">
-    <mxGraphModel dx="405" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2059" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="GCCixi4ryjbMaLbX3nnP" name="07 - setState">
-    <mxGraphModel dx="415" dy="216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1441" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
