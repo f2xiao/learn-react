@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T18:21:13.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="W9BT0xd3HsAyZ5IPKgTW" version="18.0.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-05-07T19:00:37.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Wg6OMbVJgniWetyfdzLb" version="18.0.2" type="github" pages="21">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,8 +57,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mb96ZKDMgfEnHgTAUdYf" name="01-03 conventions in JSX">
-    <mxGraphModel dx="967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="mb96ZKDMgfEnHgTAUdYf" name="01-3 conventions in JSX">
+    <mxGraphModel dx="944" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,21 +78,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BHqIijLhPNndav-jzsjz" name="02-1 stateless functional comp">
-    <mxGraphModel dx="967" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CxyhMBl6r6sQwa05iiF8-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="309.5" as="sourcePoint" />
-            <mxPoint x="410" y="309.5" as="targetPoint" />
+            <mxPoint x="350" y="314.5" as="sourcePoint" />
+            <mxPoint x="450" y="314.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CxyhMBl6r6sQwa05iiF8-3" value="props" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="220" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CxyhMBl6r6sQwa05iiF8-5" value="JSX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="295" width="60" height="30" as="geometry" />
+          <mxGeometry x="480" y="300" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6j-GvJsBo-dMbnkxlp5R-1" value="componentName = function (){&lt;br&gt;return JSX}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="230" width="300" height="30" as="geometry" />
@@ -101,7 +101,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eCdco4PguwVkqWRGOjIO" name="02-2 comp with composition">
-    <mxGraphModel dx="704" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,8 +126,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7HQr32Nu4WOg2IXcQPQD" name="02-03 nested components">
-    <mxGraphModel dx="704" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="7HQr32Nu4WOg2IXcQPQD" name="02-3 nested components">
+    <mxGraphModel dx="944" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -149,8 +149,30 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="PpH-It0cTAEEukXqCwz9" name="02-4 composition with ES6 class">
+    <mxGraphModel dx="733" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ycx4XI4chI2T5v1PLcm5-1" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges.&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="550" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gGWu-8oIMw6ose6FZa7Y" name="02-5 render ">
+    <mxGraphModel dx="613" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="etdelGxyiFt4TDy_m0IK-1" value="&lt;span style=&quot;font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;ReactDOM.render(&amp;lt;ComponentToRender /&amp;gt;, targetNode)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="470" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="ydKKTWdMuI7tSlY-n6b7" name="03 - comp w/ ES6 class">
-    <mxGraphModel dx="704" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,19 +212,61 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="s7hwgAXf5W586IEruqFc" name="04 - props">
-    <mxGraphModel dx="494" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="s7hwgAXf5W586IEruqFc" name="04-1 props">
+    <mxGraphModel dx="688" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sW6dYtYY5RHziHT2NLCA-1" value="defaultProps&lt;br&gt;propTypes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="330" y="215" width="80" height="30" as="geometry" />
+        <mxCell id="Q53VSUY6RxTVlS_5cTfR-1" value="&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;In React, you can pass props, or properties, to child components.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="550" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j6eA7QUYTiK4PW6xaZLn" name="04-2 pass props to stateless functional comp">
+    <mxGraphModel dx="972" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l_JWoMxQQ0RnskSdVhHC-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="294.5" as="sourcePoint" />
+            <mxPoint x="450" y="294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_JWoMxQQ0RnskSdVhHC-2" value="props" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_JWoMxQQ0RnskSdVhHC-3" value="JSX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l_JWoMxQQ0RnskSdVhHC-4" value="&lt;pre style=&quot;box-sizing: border-box; text-shadow: none; overflow: auto; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 18px; display: block; padding: 1em; margin: 0.5em 0px; line-height: 1.5; word-break: normal; overflow-wrap: normal; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat-x: ; background-repeat-y: ; background-attachment: ; background-origin: ; background-clip: ; border: none; border-radius: 0px; hyphens: none; tab-size: 4; text-align: left; word-spacing: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; tabindex=&quot;0&quot; class=&quot;language-jsx&quot;&gt;&lt;code style=&quot;box-sizing: border-box; text-shadow: none; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; padding: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 0px; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; text-align: left; word-break: normal; word-spacing: normal;&quot; class=&quot;language-jsx&quot;&gt;(props) =&amp;gt; &amp;lt;h1&amp;gt;Hello, {props.user}!&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="460" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UTowq97Xd_eTLXCkX91j" name="04-3 pass an array as props">
+    <mxGraphModel dx="826" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FRPnOmg89hm6_UpyDI3b" name="04-4 default props">
+    <mxGraphModel dx="586" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sk_fkgLVVnjVwF6yhcgd-1" value="defaultProps&lt;br&gt;propTypes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="310" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="iuzBB_JeK6lc59-x1Cc0" name="05 - stateful component">
-    <mxGraphModel dx="494" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
