@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T20:24:12.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="p1lTqgb9HR-5lqSut-kK" version="18.0.2" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-05-08T20:39:52.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="SZtYFj5gjinRAl3olW1p" version="18.0.2" type="github" pages="25">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="854" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -836,27 +836,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CT9QGEoEZUK2yq5GaL7J" name="15 - Inline Style">
-    <mxGraphModel dx="1471" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="833" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="clqeBowXQY5voX5hQYpl-1" value="Stylesheet: use className" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="150" height="30" as="geometry" />
+          <mxGeometry x="200" y="250" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="clqeBowXQY5voX5hQYpl-2" value="Two ways to add styles in React" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="180" height="30" as="geometry" />
+          <mxGeometry x="160" y="220" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="clqeBowXQY5voX5hQYpl-3" value="Inline styles:&amp;nbsp; style={[Obj={...}]}, similar in HTML with style attribute in the tag&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="140" width="420" height="30" as="geometry" />
+          <mxGeometry x="200" y="280" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="clqeBowXQY5voX5hQYpl-4" value="Notes on Obj:&lt;br&gt;1. &#39;-&#39; is not valid in Object so use camelCase for CSS property name&lt;br&gt;2. property value other than length values that default to px should be wrapped in quotes" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="170" width="500" height="60" as="geometry" />
+          <mxGeometry x="240" y="310" width="500" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clqeBowXQY5voX5hQYpl-5" value="const styles = {...}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="260" width="100" height="30" as="geometry" />
+          <mxGeometry x="240" y="400" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="clqeBowXQY5voX5hQYpl-6" value="render( ){&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;div style={styles}&amp;gt; Style Me! &amp;lt;/div&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;)&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="250" height="80" as="geometry" />
+          <mxGeometry x="240" y="440" width="250" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UiUmIbUp9i-1JlIG1mgL" name="16 Conditional Rendering in render()">
+    <mxGraphModel dx="1063" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QL4-WK4M15Rgheicwmn2-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;inject JS in JSX code using curly braces,&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;{ } to: access/pass props, access state, insert comments and style components&lt;/code&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-3" value="Conditional rendering inside render():" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-4" value="if(condition) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return (...)&lt;br&gt;}else{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return(...)&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-5" value="Outside return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-7" value="return (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;{condition ? expressionIfTrue : expressionIfFalse}&lt;br&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-8" value="Inside return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QL4-WK4M15Rgheicwmn2-9" value="const expression = ....&lt;br&gt;...&lt;br&gt;return (&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;lt;Child propsDataName={expression} /&amp;gt;&lt;br&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="230" y="560" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
