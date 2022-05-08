@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T22:44:48.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="mLrOXEQjmUZRSpKduQbr" version="18.0.2" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-05-08T22:57:24.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="fxudAkgwE_7PkujpXhEe" version="18.0.2" type="github" pages="26">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="854" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -862,7 +862,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UiUmIbUp9i-1JlIG1mgL" name="16 Conditional Rendering in render()">
-    <mxGraphModel dx="915" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="849" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -900,7 +900,7 @@
           <mxGeometry x="80" y="850" width="550" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oWXRHxtKt8P_ciON_xjb-4" value="let styles = {...}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="80" y="900" width="110" height="30" as="geometry" />
+          <mxGeometry x="80" y="900" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oWXRHxtKt8P_ciON_xjb-5" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="270" y="620" width="60" height="30" as="geometry" />
@@ -908,6 +908,14 @@
         <mxCell id="oWXRHxtKt8P_ciON_xjb-6" value="styles.CSSProperty = condition(based on this.state.dataName) ? style1 : style2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="80" y="940" width="500" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w_Gz0Jg6_12KtRALailk" name="Page-26">
+    <mxGraphModel dx="949" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
