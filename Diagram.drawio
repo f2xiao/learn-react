@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T00:28:49.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="HTPWdrpQjG8e_lCFajfn" version="18.0.2" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2022-05-10T00:35:11.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="CdeA7kF-sEz4Uvq4-sK7" version="18.0.2" type="github" pages="27">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="1051" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -983,7 +983,7 @@
           <mxGeometry x="135.25" y="190" width="50.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-23" value="MyToDoList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="285" y="600" width="160" height="314" as="geometry">
+          <mxGeometry x="220" y="590" width="160" height="314" as="geometry">
             <mxRectangle x="320" y="760" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1052,15 +1052,29 @@
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-34" value="onChange" style="edgeStyle=none;html=1;endArrow=open;endSize=12;verticalAlign=bottom;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7n3T3W2b3gP24sk8liZP-28">
           <mxGeometry x="-0.4665" width="160" relative="1" as="geometry">
-            <mxPoint x="545" y="720" as="sourcePoint" />
-            <mxPoint x="445" y="820" as="targetPoint" />
+            <mxPoint x="480" y="710" as="sourcePoint" />
+            <mxPoint x="380" y="810" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="485" y="750" />
-              <mxPoint x="485" y="820" />
+              <mxPoint x="420" y="740" />
+              <mxPoint x="420" y="810" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="l-mLY2M_vPwysKiPpFLp-1" value="&lt;span style=&quot;color: rgb(245, 246, 247); font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(27, 27, 50); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Give Sibling Elements a Unique Key Attribute, for example :&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="555" y="660" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l-mLY2M_vPwysKiPpFLp-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;li key={item}&amp;gt;{item}&amp;lt;/li&amp;gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="555" y="760" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EjZtajvOolZ5uZiX3Bq_" name="Page-27">
+    <mxGraphModel dx="1051" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
