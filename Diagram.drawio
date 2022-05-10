@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T00:27:54.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="KGLjB_pCvK1IiY_gsHQy" version="18.0.2" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2022-05-10T00:28:49.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="HTPWdrpQjG8e_lCFajfn" version="18.0.2" type="github" pages="26">
   <diagram id="Eo-MJG3Geo6U9HWaCAQ4" name="01-1 JSX">
     <mxGraphModel dx="1051" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -912,7 +912,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w_Gz0Jg6_12KtRALailk" name="17 dynamic rendering">
-    <mxGraphModel dx="1051" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -965,7 +965,7 @@
           <mxGeometry x="640" y="485" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-12" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="120" y="140" width="410" height="260" as="geometry" />
+          <mxGeometry x="220" y="130" width="410" height="260" as="geometry" />
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-13" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;" vertex="1" parent="7n3T3W2b3gP24sk8liZP-12">
           <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
@@ -983,7 +983,7 @@
           <mxGeometry x="135.25" y="190" width="50.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-23" value="MyToDoList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="600" width="160" height="314" as="geometry">
+          <mxGeometry x="285" y="600" width="160" height="314" as="geometry">
             <mxRectangle x="320" y="760" width="110" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1052,11 +1052,11 @@
         </mxCell>
         <mxCell id="7n3T3W2b3gP24sk8liZP-34" value="onChange" style="edgeStyle=none;html=1;endArrow=open;endSize=12;verticalAlign=bottom;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7n3T3W2b3gP24sk8liZP-28">
           <mxGeometry x="-0.4665" width="160" relative="1" as="geometry">
-            <mxPoint x="580" y="720" as="sourcePoint" />
-            <mxPoint x="480" y="820" as="targetPoint" />
+            <mxPoint x="545" y="720" as="sourcePoint" />
+            <mxPoint x="445" y="820" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="750" />
-              <mxPoint x="520" y="820" />
+              <mxPoint x="485" y="750" />
+              <mxPoint x="485" y="820" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
