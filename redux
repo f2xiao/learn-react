@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T22:20:04.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="J7zoPqutcV376s5qmztd" version="18.0.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-05-12T23:04:05.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gDHI6JpUFJGTVrBYQLG3" version="18.0.3" type="github" pages="13">
   <diagram id="xKGNfB4VhvUtR8p0xZGd" name="01 store - create">
-    <mxGraphModel dx="538" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="373" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,7 +150,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XDUTJGhdf5O3gKqD0PNG" name="07 store - summary">
-    <mxGraphModel dx="601" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pB81tEoMiPagG4kUavKz" name="08 action - types">
-    <mxGraphModel dx="1012" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Iki2StfHqYrs-ko6QR7p" name="09 listener - register">
-    <mxGraphModel dx="616" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="575" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -204,23 +204,44 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lgTY5oWL-LSWneINJwHQ" name="10 reducer - combine">
-    <mxGraphModel dx="675" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="575" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q9UImVbdbHqrzrN81DDQ-1" value="&lt;span style=&quot;color: rgb(245, 246, 247); font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(27, 27, 50); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;reducer composition:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(245, 246, 247); font-family: Lato, sans-serif; font-size: 18px; background-color: rgb(27, 27, 50);&quot;&gt;a solution for a complex state model&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XYddTdA7bC7kGvxEc_h--4" value="&lt;pre style=&quot;text-align: left; background: var(--primary-background); box-sizing: border-box; text-shadow: none; overflow: auto; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; padding: 1em; margin-top: 0.5em; margin-bottom: 0.5em; line-height: 1.5; word-break: normal; overflow-wrap: normal; border: none; border-radius: 0px; hyphens: none; tab-size: 4;&quot; tabindex=&quot;0&quot; class=&quot;language-js&quot;&gt;&lt;code style=&quot;box-sizing: border-box; text-shadow: none; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; padding: 0px; background: none; border-radius: 0px; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; word-break: normal; word-spacing: normal;&quot; class=&quot;language-js&quot;&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token keyword&quot;&gt;const&lt;/span&gt; rootReducer &lt;span style=&quot;box-sizing: border-box; background: none; text-shadow: none !important;&quot; class=&quot;token operator&quot;&gt;=&lt;/span&gt; Redux&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token function&quot;&gt;combineReducers&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  [&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token literal-property property&quot;&gt;keyNameUsedAsAssocaitedStateforThisReducer]&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; background: none; text-shadow: none !important;&quot; class=&quot;token operator&quot;&gt;:&lt;/span&gt; authenticationReducer&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token literal-property property&quot;&gt;notes&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; background: none; text-shadow: none !important;&quot; class=&quot;token operator&quot;&gt;:&lt;/span&gt; notesReducer&lt;br&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XYddTdA7bC7kGvxEc_h--5" value="const store = Redux.createStore(rootReducer)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="525" width="310" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XYddTdA7bC7kGvxEc_h--6" value="combine reducer to create a rootReducer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYddTdA7bC7kGvxEc_h--7" value="use the rootReducer to create the store for an app" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="320" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="IfrKWhOBU8OGvSEgGKnm" name="11 action - send">
-    <mxGraphModel dx="1012" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="IfrKWhOBU8OGvSEgGKnm" name="11 action - payload">
+    <mxGraphModel dx="862" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="laNejBCEcmT8uKiqxlS2-1" value="send action payload data to store through reducer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laNejBCEcmT8uKiqxlS2-2" value="reducer = (state=defaultState, action){&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;switch (action.type){&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;case &#39;TYPE_A&#39;:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return action.payloadDataA&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;case &#39;TYPE_B&#39;:&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return action.payloadDataB&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;default:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;return state&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="255" y="250" width="340" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="K6BAwt_RPNhKk9qCpfSj" name="12 middleware">
-    <mxGraphModel dx="1012" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OFZVbKXDXegHsmzRlZfR" name="13 counter - example">
-    <mxGraphModel dx="1012" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="560" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
