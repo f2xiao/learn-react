@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T20:12:08.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="zG6XkW2ddAhKkOtUCOhd" version="18.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-12T20:13:41.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Hzk7Un_Fhpzoy9_VvQug" version="18.0.3" type="github" pages="6">
   <diagram id="xKGNfB4VhvUtR8p0xZGd" name="01 store - create">
     <mxGraphModel dx="575" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -57,7 +57,10 @@
           <mxGeometry x="210" y="300" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zOWFEY3DQ0Wby4Kd0_dT-8" value="&lt;span style=&quot;&quot;&gt;const action = {&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;type:&#39;[userDefinedActionTypeName]&#39;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;}&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="340" width="250" height="70" as="geometry" />
+          <mxGeometry x="220" y="360" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lOPl_seZtB_p5_SmXKbo-1" value="message deliver to inform the store about the event that&#39;s occurred" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="175" width="360" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
