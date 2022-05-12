@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-12T20:18:59.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ayx3SzPX3_XcORE0Rk-H" version="18.0.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-12T20:28:53.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EPls2M0NfxGgVNxiE5v7" version="18.0.3" type="github" pages="6">
   <diagram id="xKGNfB4VhvUtR8p0xZGd" name="01 store - create">
-    <mxGraphModel dx="575" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,14 @@
         <mxCell id="z7fEE8sAC01h4ysG7vvA-5" value="create a store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="210" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z7fEE8sAC01h4ysG7vvA-6" value="reducer = [state] =&amp;gt; [state]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="z7fEE8sAC01h4ysG7vvA-6" value="reducer = (state) =&amp;gt; state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="290" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="MmGFJ8jNXdeWa7fSD1VY" name="02 state - get">
-    <mxGraphModel dx="471" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2vc2E5FP6gRzN6YraS2r" name="03 action - define">
-    <mxGraphModel dx="494" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="524" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,10 +80,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9ylh5NP__0fvAStyMBZS" name="05 action - dispatch">
-    <mxGraphModel dx="460" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="841" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZSHtlcgu7KriwZWrSnCw-1" value="&lt;pre style=&quot;box-sizing: border-box; text-shadow: none; overflow: auto; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 18px; display: block; padding: 1em; margin: 0.5em 0px; line-height: 1.5; word-break: normal; overflow-wrap: normal; background: var(--primary-background); border: none; border-radius: 0px; hyphens: none; tab-size: 4; text-align: left; word-spacing: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot; tabindex=&quot;0&quot; class=&quot;language-js&quot;&gt;&lt;code style=&quot;box-sizing: border-box; text-shadow: none; font-family: Consolas, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 1em; padding: 0px; background: none; border-radius: 0px; overflow-wrap: normal; hyphens: none; line-height: 1.5; tab-size: 4; text-align: left; word-break: normal; word-spacing: normal;&quot; class=&quot;language-js&quot;&gt;store&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token function&quot;&gt;actionCreator&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;store&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token function&quot;&gt;dispatch&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token literal-property property&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; background: none; text-shadow: none !important;&quot; class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token string&quot;&gt;&#39;LOGIN&#39;&lt;/span&gt; &lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-shadow: none !important;&quot; class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="300" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSHtlcgu7KriwZWrSnCw-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;box-sizing: border-box; font-family: &amp;quot;Roboto Mono&amp;quot;, monospace; font-size: 16.2px; padding: 2px 4px; border-radius: 0px; overflow-wrap: anywhere; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none !important;&quot;&gt;dispatch&lt;/code&gt;&lt;span style=&quot;font-family: Lato, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp;method is what you use to dispatch actions to the Redux store, the first parameter should be an action object represents an event&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AHvsIY_Gt85eQLDwOpR6-1" value="const store = Redux.createStore(state=&amp;gt;state)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AHvsIY_Gt85eQLDwOpR6-2" value="const state ={&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;login: false&lt;br&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AHvsIY_Gt85eQLDwOpR6-3" value="const loginAction = () =&amp;gt; {type:&#39;LOGIN&#39;}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AHvsIY_Gt85eQLDwOpR6-4" value="store.dispatch(loginAction())" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
