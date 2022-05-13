@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T00:22:57.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Fcyt7T3cziMIMFZcRvjc" version="18.0.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-05-13T00:23:38.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="s51beTfz-saYNECV1j89" version="18.0.3" type="github" pages="14">
   <diagram id="xKGNfB4VhvUtR8p0xZGd" name="01 store - create">
     <mxGraphModel dx="575" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -382,6 +382,17 @@
         <mxCell id="_R2Gg7pRhoA5uhvpzc-N-14" value="state--" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="480" y="370" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OJ9Gq-qyaqvb_5VD3tRo-1" value="const store = Redux.createStore(countReducer)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="310" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="liU0BT-bwQgSPtAAPpNY" name="Page-14">
+    <mxGraphModel dx="1263" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
