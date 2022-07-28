@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T16:02:37.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="i7Ibf2ATkpd6YyqJyB70" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-28T16:11:31.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kH0GrTx2Hso3XtIOgBac" version="20.2.2" type="github" pages="2">
   <diagram id="WuUNRSpTB1XZZo63I-Pw" name="jest">
     <mxGraphModel dx="1422" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="KC4aBus4MobHWA_E31U5-5" value="select an element or elements by search functions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="206" y="235" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KC4aBus4MobHWA_E31U5-9" value="assertion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KC4aBus4MobHWA_E31U5-9" value="assertions decalred manually or with snapshot&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="206" y="339" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IRo9bSnHJw43YaClyTiL-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KC4aBus4MobHWA_E31U5-1" target="KC4aBus4MobHWA_E31U5-5">
