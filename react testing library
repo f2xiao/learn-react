@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T15:11:42.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ImC-4ux1zmhAuYFx9zc4" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-28T16:02:37.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="i7Ibf2ATkpd6YyqJyB70" version="20.2.2" type="github" pages="2">
   <diagram id="WuUNRSpTB1XZZo63I-Pw" name="jest">
     <mxGraphModel dx="1422" dy="754" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,17 +61,31 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KC4aBus4MobHWA_E31U5-1" value="render the comp&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="279" y="155" width="120" height="60" as="geometry" />
+          <mxGeometry x="206" y="136" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KC4aBus4MobHWA_E31U5-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KC4aBus4MobHWA_E31U5-1">
+        <mxCell id="KC4aBus4MobHWA_E31U5-5" value="select an element or elements by search functions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KC4aBus4MobHWA_E31U5-9" value="assertion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206" y="339" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IRo9bSnHJw43YaClyTiL-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KC4aBus4MobHWA_E31U5-1" target="KC4aBus4MobHWA_E31U5-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="401" y="296" as="sourcePoint" />
-            <mxPoint x="161" y="319" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="339" y="252" />
-              <mxPoint x="161" y="252" />
-            </Array>
+            <mxPoint x="263" y="353" as="sourcePoint" />
+            <mxPoint x="313" y="303" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IRo9bSnHJw43YaClyTiL-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KC4aBus4MobHWA_E31U5-5" target="KC4aBus4MobHWA_E31U5-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263" y="353" as="sourcePoint" />
+            <mxPoint x="313" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRo9bSnHJw43YaClyTiL-3" value="render(&amp;lt;JSX&amp;gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378" y="151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IRo9bSnHJw43YaClyTiL-4" value="screen.&amp;lt;search-variants&amp;gt;&amp;lt;search-types&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="363" y="246" width="229" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
